@@ -21,8 +21,8 @@ from productosApp import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('index/', views.index),
-    path('electronica/', views.electronica),
-    path('juguetes/', views.juguetes),
+    path('calzado/', views.calzado),
+    path('armas/', views.armas),
     path('ropa/', views.ropa),
 ]
 
